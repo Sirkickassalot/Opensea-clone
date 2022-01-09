@@ -13,10 +13,6 @@
     align-items: center;
 }
 
-.font-link {
-    font-family: 'Poppins', sans-serif;
-}
-
 .opensea_logo {
     width: 140px;
     /* padding: 10%; */
@@ -25,11 +21,7 @@
 .searchBar :hover {
     background-color: rgba(255, 255, 255, 0.198);
     height: 40px;
-    flex: 1;
-    display: flex;
     border-radius: 8px;
-    align-items: center;
-    max-width: 470px;
     font-family: 'Poppins', sans-serif;
 }
 .searchBar {
@@ -49,8 +41,8 @@
 
 .searchBar icon {
     color: #8A939B;
-    /* margin-top: 7px;
-    padding-left: 10px; */
+    margin-top: 5px;
+    padding-left: 10px;
 }
 
 .searchInput {
@@ -58,7 +50,7 @@
     border: none;
     width: 100%;
     outline: none;
-    color: #E5E8EB;
+    color: #9e9fa0;
     font-size: 16px;
 }
 
@@ -78,7 +70,7 @@
 }
 
 .headerIcons icon {
-    margin-top: 30px;
+    padding: 10px;
     padding-right: 25px;
 }
 
@@ -86,19 +78,4 @@
     color: rgba(255, 255, 255, 0.75);
     cursor: pointer; 
 }
-
-/* .userIcon {
-    width: 40px;
-    height: 40px;
-    margin-top:10px;
-} */
-
-/* .walletIcon {
-    width: 50px;
-    height: 38px;
-    margin-top:10px;
-    margin-right: 30px;
-    padding-left: 15px;    
-} */
-
 
